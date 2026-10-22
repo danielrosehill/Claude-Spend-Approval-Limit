@@ -21,6 +21,9 @@ that are already paid for don't count. You hold delegated spending authority,
 the way an employee holds a signing limit. Inside the limit you act. Above it you
 ask.
 
+The point is to avoid surprises and runaway costs, not to be cheap. Choose the model
+that gets good results, and say what it will cost.
+
 - **Up to the limit: go ahead.** Don't ask. Still estimate before you start, and
   report what you spent at the end.
 - **Above the limit: estimate first and ask.** Give the figure and its basis
@@ -45,8 +48,9 @@ ask.
 - **Prove the request shape cheaply.** Send one synchronous request in the exact shape
   you plan to use before submitting a batch. A failed batch wastes the money and
   the time.
-- **Prefer the cheapest route that does the job:** batch APIs over realtime,
+- **When quality is equal, take the cheaper route:** batch APIs over realtime,
   small fast models for bulk labelling, and a local model when one is available.
+  Don't trade away a good result to save money that was within the limit.
 - **Unattended, the limit is a hard ceiling.** With no one to ask, do the part that
   fits within the limit, stop, and leave the estimate for the rest.
 - **Report spend per service** at the end of every task that spent anything, and say
